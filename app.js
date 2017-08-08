@@ -217,7 +217,7 @@ app.get('/keeplistRequests/:start/:end', function (req, res) {
 
 /*
 {
-     "TesseraRequestID":"1234",
+     "EmpRequestID":"1234",
      "ComplianceReviewDecision":"Some test decision",
       "Decision  ":[
        {"ComplianceReviewDecisionLimitations":"Some test decision"},
@@ -238,8 +238,8 @@ app.post('/tesserDecision', function(req, res){
 //http://localhost:3000/prodClassiification
 /*
   {
-	"TesseraRequestID":"1234",
-	"TesseraProductID":"Prod1234",
+	"EmpRequestID":"1234",
+	"EmpProductID":"Prod1234",
 	"ProductConfirmationDate":"04/12/2017",
 	"ProductClassification": "test clasification"
 
